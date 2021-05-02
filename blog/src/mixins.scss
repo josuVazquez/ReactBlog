@@ -1,0 +1,5 @@
+@mixin small {
+    @media not all and (min-width: 600px) {
+        @content;
+    }
+}

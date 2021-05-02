@@ -1,0 +1,21 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '../../mixins.scss';
+
+.content {
+    background: $gray-200;
+    height: 90.3vh;
+}
+
+.postList {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    li {
+        padding: 1rem;
+    }
+}
+

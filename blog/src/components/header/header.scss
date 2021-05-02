@@ -1,0 +1,26 @@
+@import '../../mixins.scss';
+
+.searchForm {
+    display: flex;
+    margin-left: auto;
+    flex-grow: 9;
+    max-width: 20rem;
+    flex-basis: 10rem;
+    @include small {
+        display: none !important;
+    }
+}
+
+.filterButton {
+    display: none !important;
+
+    @include small {
+        display: flex !important;
+        margin-left: auto;
+    }
+}
+
+.links {
+    flex-grow: 1;
+    flex-basis: 13rem;
+}
